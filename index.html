@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="arthor" content="Ssembatya Dennis Duncan" />
+    <meta
+      name="description"
+      content="This is a very beautiful landing page show casing a Real estate (housing solutions) website designed for academical purposes."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Real Estate | Housing Solutions</title>
+  </head>
+  <body>
+    <header class="header__section">
+      <nav class="header__navigation">
+        <div class="header__logo-box">
+          <img src="assets/logo/logo.svg" alt="logo img" class="header__logo" />
+        </div>
+
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#home" class="navigation__link">Home</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#home" class="navigation__link">Service</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#home" class="navigation__link">Property</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#home" class="navigation__link">Contacts</a>
+          </li>
+        </ul>
+
+        <div class="header__cta-box">
+          <a href="#" class="header__cta">Sign In</a>
+        </div>
+      </nav>
+
+      <div class="header__hero">
+        <div class="hero__text-box">
+          <h1 class="hero__title">
+            <span class="span-sub">Comfortable House</span
+            ><span class="span-main">Find The Property Perfect For You</span>
+          </h1>
+          <p class="hero__text">
+            Whether buying or renting, finding the right place to live is a
+            personal and unique experience.
+          </p>
+          <div class="hero__orders-box">
+            <button class="btn btn--type">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 btn_svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+              <span> Choose Area</span>
+            </button>
+
+            <select name="propertyType" id="propType" class="type-select">
+              <option value="residential">residential</option>
+              <option value="commercial">commercial</option>
+              <option value="industrial">industrial</option>
+              <option value=" raw land">raw land</option>
+            </select>
+
+            <select name="averagePrice" id="average" class="price-select">
+              <option value="$800">$800</option>
+              <option value="$1200">$1200</option>
+              <option value="$170800">$170800</option>
+              <option value="$200">$200</option>
+            </select>
+
+            <a href="#" class="hero__btn">FIND NOW</a>
+          </div>
+        </div>
+        <div class="hero__img-box">
+          <img src="assets/hero/hero.svg" alt="hero img" class="hero__img" />
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
